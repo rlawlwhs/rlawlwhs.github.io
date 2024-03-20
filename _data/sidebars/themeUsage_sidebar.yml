@@ -1,0 +1,27 @@
+entries:
+- title: sidebar
+  product: GitBlog Theme Usage
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /themeUsage_landing_page.html
+      output: web, pdf
+      type: homepage
