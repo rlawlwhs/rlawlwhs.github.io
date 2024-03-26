@@ -11,7 +11,7 @@ entries:
       url: /themeUsage_landing_page.html
       output: web, pdf
       type: homepage
-    - title: malwareanalysis_sidebar
+    - title: Malware Analysis
       url: /malwareanalysis_landing_page.html
       output: web, pdf
       type: homepage
