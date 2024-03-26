@@ -1,0 +1,13 @@
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Pages
+    output: web
+    folderitems:
+
+    - title: Theme Usage
+      url: /themeUsage_landing_page.html
+      output: web, pdf
+      type: homepage
