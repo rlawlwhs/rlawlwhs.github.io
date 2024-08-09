@@ -1,0 +1,15 @@
+> tls 만 보고싶어
+
+tls
+
+> client hello 만 보고싶어
+
+tls.handshake.type == 1
+
+> client hello의 SNI가 naver.com 을 포함하는지 확인하고싶어.
+
+tls.handshake.extensions_server_name contains "naver.com"
+
+> 데이터에 헥사값 01 02 03 04 05 를 찾고싶어
+
+data == 01:02:03:04:05
