@@ -1,1 +1,9 @@
+"InfoEng": 의 뒤에 나오는 내용에서 apple, banana, cat 이 오는 문장 정규표현식
+ex)
+"InfoEng": three apple, two mango, three melon
+"InfoEng":\s*\*.*( apple | banana | cat ).*\*.*
 
+URL의 끝이 .ai로 끝나는 정규표현식
+ex)
+helloworld.apple.ai
+.*\.ai\r\n
