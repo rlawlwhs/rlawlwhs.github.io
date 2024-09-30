@@ -1,0 +1,8 @@
+# Abstract 
+
+from abc import abstractmethod
+
+class Foo:
+    @abstractmethod
+    def test(self):
+        pass
