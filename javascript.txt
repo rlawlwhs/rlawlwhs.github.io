@@ -1,0 +1,17 @@
+# add event
+
+const btn = document.getElementById("btn_test");
+if (btn)
+{
+  btn.addEventListener("click", testMethod);
+  btn.addEventListener("keydown", function(e){
+    if(e.code == "Enter")
+    {
+        testMethod()
+    }
+  });
+}
+
+function testMethod()
+{
+}
