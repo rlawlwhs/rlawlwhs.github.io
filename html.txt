@@ -1,0 +1,10 @@
+# css link
+
+<link rel="stylesheet" href="foo.css">
+
+# area
+
+<fieldset style="width:300px; height:80px;">
+  <legund>Name</legund>
+</fieldset>
+
