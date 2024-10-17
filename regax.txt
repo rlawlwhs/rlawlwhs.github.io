@@ -7,3 +7,6 @@ URL의 끝이 .ai로 끝나는 정규표현식
 ex)
 helloworld.apple.ai
 .*\.ai\r\n
+
+html 에서 tr, td 로 이루어진 테이블에서 원하는 데이터를 찾는 정규표현식
+\.png';>\s*([a-zA-Z0-9]*)\s*</td>
