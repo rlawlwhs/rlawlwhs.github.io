@@ -1,0 +1,14 @@
+{
+    "name": "Alice",
+    "age": 25,
+    "isStudent": true,
+    "grades": {
+        "math": 90,
+        "science": 85
+    },
+    "hobbies": ["reading", "gaming", "hiking"],
+    "address": {
+        "city": "Wonderland",
+        "zipcode": "12345"
+    }
+}
