@@ -1,6 +1,6 @@
-#include <cstdlib>   // for getenv, _putenv
+#include <cstdlib>
 #include <iostream>
-#include <windows.h> // for SetEnvironmentVariable
+#include <windows.h>
 
 int main() {
     const char* varName = "MY_VAR";
