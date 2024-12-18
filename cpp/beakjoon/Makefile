@@ -1,5 +1,5 @@
 CXX = g++
-TARGET = 2630
+TARGET = 21736
 
 all: $(TARGET)
 
