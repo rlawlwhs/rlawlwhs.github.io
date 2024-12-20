@@ -25,7 +25,7 @@ int moveMatrix(vector<vector<char>>& matrix, int row, int col)
 		return 0;
 	}
 
-	showMatrix(matrix);
+	// showMatrix(matrix);
 	if (matrix[row][col] == 'P')
 	{
 		matrix[row][col] = 'X';
@@ -84,7 +84,16 @@ int main() {
 		}
 	}
 	// cout << sRow << sCol << "\n";
-	cout << moveMatrix(matrix, sRow ,sCol);
+	int t = moveMatrix(matrix, sRow ,sCol);
+	if (t == 0)
+	{
+		cout << "TT";
+	}
+	else
+	{
+		cout << t;
+	}
+
 	
 	return 0;
 }
