@@ -12,7 +12,7 @@ void showMatrix(const std::vector<std::vector<T>>& matrix)
 	{
 		for (const auto& elem : row)
 		{
-			std::cout << std::left << std::setw(8) << elem;
+			std::cout << std::left << std::setw(2) << elem;
 		}
 		std::cout << "\n";
 	}
