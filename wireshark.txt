@@ -12,7 +12,7 @@ tls.handshake.extensions_server_name contains "naver.com"
 
 > 데이터에 헥사값 01 02 03 04 05 를 찾고싶어
 
-data == 01:02:03:04:05
+data contains 01:02:03:04:05
 
 > tcp payload의 3번째 값이 0x80 인지 확인하고 싶어.
 
