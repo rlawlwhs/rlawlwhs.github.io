@@ -1,0 +1,5 @@
+select * from [table_name] where name LIKE "김%" order by random() limit 3;
+
+select * from [table_name] where name LIKE "김__"
+
+alter table [table_name] add column [column_name] TINYINT(1) NOT NULL default 0;
