@@ -1,4 +1,4 @@
-fetch("data.csv")
+fetch("/data.csv")
   .then(response => response.text())
   .then(text => {
     const rows = text.trim().split("\n").slice(1);
