@@ -1,9 +1,15 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  {% include head.html %}
+</head>
+<body>
+  <header><h1>{{ site.title }}</h1></header>
+  <main>
     {{ content }}
-  </body>
+  </main>
+  {% include footer.html %}
+</body>
 </html>
