@@ -5,7 +5,8 @@ title: 홈
 
 블로그
 
-{% assign grouped_posts = site.posts | group_by_exp: "post", "post.path | split: '/' | slice: 0, post.path | split: '/' | size | minus: 1 | join: '/'" %}
+{% assign grouped_posts = site.posts | group_by_exp: "post", "post.path | split: '/' | slice: 0, 2 | join: '/'" %}
+
 
 {% for group in grouped_posts %}
   <h2>📂 {{ group.name }}</h2>
